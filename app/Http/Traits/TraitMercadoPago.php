@@ -62,7 +62,7 @@ trait TraitMercadoPago
 
         $preference->items = array($item);
         $preference->payer = $payer;
-        $preference->external_reference = "sebastiancabarcasberrio@gmail.com";
+        $preference->external_reference = "sebastianberrio45@hotmail.com";
 
         $preference->payment_methods = array(
             "excluded_payment_methods" => array(

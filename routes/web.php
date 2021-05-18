@@ -22,6 +22,6 @@ Route::get('success', [ApiMercadoPagoController::class, 'success'])->name('succe
 Route::get('pending', [ApiMercadoPagoController::class, 'pending'])->name('pending');
 Route::get('failure', [ApiMercadoPagoController::class, 'failure'])->name('failure');
 
-Route::get('/notifications', [ApiMercadoPagoController::class, 'notifications'])->name('notifications');
+Route::post('notifications', [ApiMercadoPagoController::class, 'notifications'])->name('notifications');
 
 

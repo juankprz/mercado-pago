@@ -93,7 +93,7 @@
                                     <h4 class="alert-heading">En hora buena!</h4>
                                     <p>Tu pago ha sido aceptado.</p>
                                     <h5>Resumen de pago</h5>
-                                    <span>Método de Pago: </span><br>
+                                    <span>Método de Pago: {{ $payment_type }} </span><br>
                                     <span>External Reference: {{ $external_reference }}</span><br>
                                     <span>Id De Pago: {{ $payment_id }}</span><br><br>
                                     <a href="{{ route('home') }}">Ir al Inicio</a>
